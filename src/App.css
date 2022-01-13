@@ -7,7 +7,7 @@ h1 {
   padding: 30px;
   background-color: #1B1B1B;
   color: white;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 label {
@@ -17,13 +17,13 @@ label {
   width: 750px;
   margin: auto;
   text-align: left;
+  font-weight: bold;
 }
 
 input {
-  margin-left: 10px;
   margin-top: 10px;
   font-size: 24px;
-  border-radius: 5px;
+  border-radius: 10px;
   border-color: lightgray;
   border-style: solid;
   width: 250px;
@@ -31,11 +31,46 @@ input {
 }
 
 button {
-  margin: 10px;
-  padding: 15px;
+  color: #1B1B1B;
+  border-radius: 10px;
+  border: lightgray solid 2px;
+  margin-left: 15px;
+  padding: 10px;
   font-size: 18px;
 }
 
-label {
+ul {
+  margin: auto;
+  text-align: left;
+  list-style-position: inside;
+  width: 700px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  padding-left: 80px;
+}
+
+#data {
+  font-size: 25px;
+  margin: 30px;
+  border: solid lightgray 1px;
+  border-radius: 10px;
+}
+
+#box {
+  width: 700px;
+  margin: auto;
+}
+
+#head {
+  color: #1B1B1B;
+  border-radius: 10px;
+  border: solid lightgray 1px;
+  padding: 1px;
+  background-color: #ECECEC;
+  text-align: left;
+}
+
+p {
   font-weight: bold;
+  padding-left: 20px;
 }

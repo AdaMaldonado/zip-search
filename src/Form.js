@@ -11,7 +11,7 @@ export default function Form(props) {
     }
 
     return (
-        <div>
+        <div id="input">
             <h1>Zip Code Search</h1>
             <label>Zip Code:</label>
             <input placeholder="Try 10016"
